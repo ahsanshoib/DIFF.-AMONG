@@ -36,10 +36,10 @@ body{
 
 .cyan:hover{
   box-shadow:0 0 30px #00fbff;
-  border-color:#00fbff;
+  border-color:#2fdbde;
 }
 
 .green:hover{
-  box-shadow:0 0 30px #77ff00;
+  box-shadow:0 0 30px #86d73f;
   border-color:#77ff00;
 }

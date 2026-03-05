@@ -1,0 +1,45 @@
+body{
+  margin:10px;
+  background:rgb(86, 27, 2);
+  height:400px;
+}
+
+.container{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:40px;
+  padding:80px;
+  margin: 100px;
+  height:100%;
+  justify-content: center;
+  
+  
+}
+
+.card{
+  height:400px;
+  background:#ffffff;
+  border-radius:12px;
+  border:2px solid transparent;
+  transition:all 0.3s ease;
+  cursor:pointer;
+  padding: 40px;
+
+  
+}
+
+
+.pink:hover{
+  box-shadow:0 0 30px #ff0055;
+  border-color:#ff0055;
+}
+
+.cyan:hover{
+  box-shadow:0 0 30px #00fbff;
+  border-color:#00fbff;
+}
+
+.green:hover{
+  box-shadow:0 0 30px #77ff00;
+  border-color:#77ff00;
+}
